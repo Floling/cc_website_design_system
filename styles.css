@@ -11,15 +11,22 @@ html {
 
 header {
     margin: 0 auto;
+    background-image: url("images/heise-academy-startseite_2.png");
+    background-position: top;
+    background-size: 120%;
     background-color: #C3281C;
     max-width: 1500px;
+    height: 350px;
     border-bottom: 2px solid #394551;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 {
     color: white;
     padding: 15px;
-    text-align: center;
+    text-shadow: 2px 2px 3px black;
 }
 
 h1 {
@@ -35,10 +42,6 @@ h2 {
 p {
     font-size: 18px;
     font-weight: 400;
-}
-
-li {
-    font-size: 18px;
 }
 
 /* Color Section */
@@ -107,3 +110,25 @@ li {
 }
 
 /* Text Styles Section */
+.styles-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+    border-bottom: 2px solid #394551;
+}
+
+.textstylebox {
+    padding: 10px;
+}
+
+.textstylebox li {
+    list-style: none;
+    padding-left: 1px;
+    font-size: 18px;
+}
+
+.textstylebox h1, 
+.textstylebox h2, 
+.textstylebox p {
+    padding: 5px 0;
+}
