@@ -46,12 +46,11 @@ li {
     padding: 20px 0 10px;
     margin: 0 auto;
     border-bottom: 2px double #394551;
-    width: 1500px;
+    max-width: 1500px;
 }
 
 .colors-block {
     display: flex;
-    width: 1500px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -82,5 +81,29 @@ li {
 }
 
 /* Fonts Section */
+.fonts-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    border-bottom: 2px solid #394551;
+    padding: 20px 0 10px;
+}
+
+.fonts-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fontbox {
+    width: 400px;
+}
+
+#mono-font {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#serif-font {
+    font-family: 'Source Serif Pro', serif;
+}
 
 /* Text Styles Section */
